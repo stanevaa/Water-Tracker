@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.WaterTracker" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.Splash"  parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#131010</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/glass_fill_animation</item>
+        <item name="postSplashScreenTheme">@style/Theme.WaterTracker</item>
+    </style>
+
+</resources>
